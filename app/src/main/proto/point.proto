@@ -1,0 +1,11 @@
+
+syntax = "proto3";
+
+package apis.v1;
+
+import "google/type/latlng.proto";
+
+message Point {
+  string title = 1;
+  google.type.LatLng location = 2;
+}
